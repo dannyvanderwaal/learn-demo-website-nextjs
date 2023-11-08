@@ -2,6 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Prompt "Professional dark teal and orange" generated colors at https://aicolors.co/ */
+/* Tailwind CSS configuration from https://www.realtimecolors.com/?colors=fFFFFF-1D2C2F-00ADB5-005059-F8B500&fonts=Poppins-Poppins */
+@layer base {
+  :root {
+    --text: #000000;
+    --background: #d0dfe2;
+    --primary: #4df6ff;
+    --secondary: #a8f6ff;
+    --accent: #ffbc05;
+  }
+  .dark {
+    --text: #fFFFFF;
+    --background: #1D2C2F;
+    --primary: #00ADB5;
+    --secondary: #005059;
+    --accent: #F8B500;
+  }
+} 
+
 input[type='number'] {
   -moz-appearance: textfield;
   appearance: textfield;
